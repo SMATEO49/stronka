@@ -13,6 +13,7 @@ export const Header = styled.div`
     display: flex;
     justify-content: center;
     align-items: center;
+    margin: 0px;
 `;
 
 export const Full_Logo = styled.div`
