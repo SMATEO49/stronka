@@ -28,6 +28,8 @@ const Logo = styled.div`
 const FootNavWords = styled.div`
     height: 12px;
     width: 380px;
+    font-size: 12px;
+    font-weight: 500;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -64,15 +66,7 @@ export const Footer = () => {
             <Logo />
             <div style={{ width: '100%', height: 50 }} />
             <FootNavWords>
-                <a
-                    href="https://github.com/aexol"
-                    style={{
-                        color: colors.footer_text,
-                        fontFamily: 'Barlow, sans-serif',
-                        fontWeight: 500,
-                        fontSize: '12px',
-                    }}
-                >
+                <a href="https://github.com/aexol" style={{ color: colors.footer_text }}>
                     Prowadzący
                 </a>
                 <a href="https://github.com/jamstackpb" style={{ color: colors.footer_text }}>
