@@ -27,7 +27,6 @@ const Logo = styled.div`
 
 const FootNavWords = styled.div`
     color: ${colors.footer_text};
-    font-size: 12rem;
     font-weight: 500;
     height: 12px;
     width: 380px;
