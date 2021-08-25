@@ -24,7 +24,4 @@ jobs:
               run: npm export
 
             - name: Deploy 🚀 (Deplojojowanie strony :D
-              uses: JamesIves/github-pages-deploy-action@4.1.4
-              with:
-                  branch: gh-pages
-                  folder: out
+              uses: npm run deploy
