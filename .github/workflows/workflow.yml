@@ -20,9 +20,6 @@ jobs:
             - name: Install and build (Instalacja i budowa)
               run: npm install && npm run build
 
-            - name: Export
-              run: npm export
-
             - name: Deploy 🚀 (Deplojojowanie strony :D
               uses: JamesIves/github-pages-deploy-action@4.1.4
               with:
