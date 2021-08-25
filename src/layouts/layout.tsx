@@ -17,7 +17,7 @@ const Container = styled.div`
 
 export const Layout: React.FC<LayoutProps> = ({ children, home, pageTitle }) => {
     return (
-        <div style={{ margin: 0, padding: 0 }}>
+        <div>
             <CustomHelmet pageTitle={pageTitle ? pageTitle : undefined} />
             <Container>{children}</Container>
         </div>
