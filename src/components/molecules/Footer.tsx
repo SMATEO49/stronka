@@ -28,6 +28,7 @@ const Logo = styled.div`
 const FootNavWords = styled.div`
     color: ${colors.footer_text};
     font-weight: 500;
+    font-size: 12px;
     height: 12px;
     width: 380px;
     display: flex;
@@ -66,18 +67,10 @@ export const Footer = () => {
             <Logo />
             <div style={{ width: '100%', height: 50 }} />
             <FootNavWords>
-                <a href="https://github.com/aexol" style={{ color: colors.footer_text }}>
-                    Prowadzący
-                </a>
-                <a href="https://github.com/jamstackpb" style={{ color: colors.footer_text }}>
-                    Pages
-                </a>
-                <a href="https://github.com/jamstackpb" style={{ color: colors.footer_text }}>
-                    Legal
-                </a>
-                <a href="https://github.com/jamstackpb" style={{ color: colors.footer_text }}>
-                    Resources
-                </a>
+                <a href="https://github.com/aexol">Prowadzący</a>
+                <a href="https://github.com/jamstackpb">Pages</a>
+                <a href="https://github.com/jamstackpb">Legal</a>
+                <a href="https://github.com/jamstackpb">Resources</a>
             </FootNavWords>
             <FootIcons>
                 <InvertedButton ahref="https://www.facebook.com" imagIcon={fb_icon.src} />
