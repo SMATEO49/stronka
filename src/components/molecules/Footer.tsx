@@ -67,7 +67,7 @@ export const Footer = () => {
             <Logo />
             <div style={{ width: '100%', height: 50 }} />
             <FootNavWords>
-                <a href="https://github.com/aexol" style={{ color: colors.footer_text, fontFamily: 'Barlow' }}>
+                <a href="https://github.com/aexol" style={{ color: colors.footer_text, fontFamily: 'sans-serif' }}>
                     Prowadzący
                 </a>
                 <a href="https://github.com/jamstackpb" style={{ color: colors.footer_text }}>
