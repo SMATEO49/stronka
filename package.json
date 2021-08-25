@@ -4,7 +4,7 @@
     "private": true,
     "homepage": "https://SMATEO49.github.io/stronka",
     "scripts": {
-        "predeploy": "next build",
+        "predeploy": "npm run build",
         "deploy": "gh-pages -d out",
         "dev": "next dev",
         "build": "next build && next export",
