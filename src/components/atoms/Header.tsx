@@ -1,11 +1,12 @@
 import styled from '@emotion/styled';
 import full_logo1 from '@/public/images/full_logo1.svg';
+import { colors } from '@/src/styles';
 
 const prefix = '/stronka';
 
 export const Header = styled.div`
-    background: #15159b;
-    color: #fff;
+    background: ${colors.header_color};
+    color: ${colors.white};
     font-size: 18px;
     padding: 100px 40px;
     width: 100%;
