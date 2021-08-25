@@ -29,6 +29,7 @@ const FootNavWords = styled.div`
     color: ${colors.footer_text};
     font-weight: 500;
     font-size: 12px;
+    font-style: normal;
     height: 12px;
     width: 380px;
     display: flex;
