@@ -1,11 +1,13 @@
 import styled from '@emotion/styled';
-import logo1 from '/public/images/logo1.svg';
 import fb_icon from '@/public/images/fb_icon.svg';
 import tw_icon from '@/public/images/tw_icon.svg';
 import git_icon from '@/public/images/git_icon.svg';
 import in_icon from '@/public/images/in_icon.svg';
 import { colors } from '@/src/styles';
 import { InvertedButton } from './InvertedButton';
+import Image from 'next/image';
+
+const logo1 = '/images/logo1.svg';
 
 const GrandFooter = styled.div`
     background: ${colors.footer_color};
@@ -17,11 +19,11 @@ const GrandFooter = styled.div`
     flex-direction: column;
 `;
 
-const Logo = styled.div`
-    background-image: url(${logo1.src});
-    width: 52px;
-    height: 50px;
-`;
+//const Logo = styled.div`
+//    background-image: url(${logo1.src});
+//   width: 52px;
+//   height: 50px;
+//`;
 
 const FootNavWords = styled.div`
     height: 12px;
@@ -61,7 +63,7 @@ export const Footer = () => {
     return (
         <GrandFooter>
             <div style={{ width: '100%', height: 100 }} />
-            <Logo />
+            <Image src={logo1} width="52px" height="50px" />
             <div style={{ width: '100%', height: 50 }} />
             <FootNavWords>
                 <a href="https://github.com/aexol" style={{ color: colors.footer_text }}>
