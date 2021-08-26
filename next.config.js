@@ -4,5 +4,6 @@ module.exports = withPlugins([
     {
         trailingSlash: true,
         basePath: '',
+        assetPath: '/stronka',
     },
 ]);
