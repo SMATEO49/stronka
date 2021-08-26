@@ -11,7 +11,7 @@ export default class MyDocument extends Document {
         return (
             <Html lang="pl-PL">
                 <Head>
-                    <link rel="shortcut icon" href={'/favicon.ico'} />
+                    <link rel="shortcut icon" href={process.env.NEXT_PUBLIC_BASE_PATH + '/favicon.ico'} />
                     {/* enable analytics script only for production */}
                     {/* {isProduction && (
             <>
