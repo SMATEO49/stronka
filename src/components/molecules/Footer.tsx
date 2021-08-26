@@ -17,12 +17,6 @@ const GrandFooter = styled.div`
     flex-direction: column;
 `;
 
-const Logo = styled.div`
-    background-image: url(${logo1});
-    width: 52px;
-    height: 50px;
-`;
-
 const FootNavWords = styled.div`
     height: 12px;
     width: 380px;
