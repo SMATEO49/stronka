@@ -5,8 +5,6 @@ const Full_Logo = styled.img`
     width: 168px;
     height: 50px;
     margin: 28px;
-    outline-width: 10px;
-    outline-color: #f00;
     background-image: url(${full_logo1});
     position: absolute;
     top: 0;
@@ -15,7 +13,7 @@ const Full_Logo = styled.img`
 
 export const Logo = () => {
     return (
-        <div>
+        <div style={{ width: 'auto', height: 'auto' }}>
             <Full_Logo />
         </div>
     );
