@@ -1,5 +1,5 @@
 import styled from '@emotion/styled';
-import logo1 from '@/public/images/logo1.svg';
+import logo1 from '/public/images/logo1.svg';
 import fb_icon from '@/public/images/fb_icon.svg';
 import tw_icon from '@/public/images/tw_icon.svg';
 import git_icon from '@/public/images/git_icon.svg';
@@ -18,7 +18,7 @@ const GrandFooter = styled.div`
 `;
 
 const Logo = styled.div`
-    background-image: url('/'+${logo1.src});
+    background-image: url(${logo1.src});
     width: 52px;
     height: 50px;
 `;
