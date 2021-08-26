@@ -1,5 +1,5 @@
 import styled from '@emotion/styled';
-const full_logo1 = 'imges/full_logo1.svg';
+const full_logo1 = 'images/full_logo1.svg';
 
 const Full_Logo = styled.img`
     width: 168px;
