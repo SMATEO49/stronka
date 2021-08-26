@@ -1,5 +1,5 @@
 import styled from '@emotion/styled';
-const full_logo1 = 'images/full_logo1.svg';
+const full_logo1 = 'imges/full_logo1.svg';
 import { colors } from '@/src/styles';
 
 export const Header = styled.div`
