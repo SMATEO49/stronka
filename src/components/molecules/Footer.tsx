@@ -1,5 +1,5 @@
 import styled from '@emotion/styled';
-const logo1 = '@/public/images/logo1.svg';
+const logo1 = '/public/images/logo1.svg';
 import fb_icon from '@/public/images/fb_icon.svg';
 import tw_icon from '@/public/images/tw_icon.svg';
 import git_icon from '@/public/images/git_icon.svg';
