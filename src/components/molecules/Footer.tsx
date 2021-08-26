@@ -7,7 +7,7 @@ import { colors } from '@/src/styles';
 import { InvertedButton } from './InvertedButton';
 import Image from 'next/image';
 
-const logo1 = '/images/logo1.svg';
+import logo1 from '../../../public/images/logo1.svg';
 
 const GrandFooter = styled.div`
     background: ${colors.footer_color};
