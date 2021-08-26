@@ -6,13 +6,12 @@ import Document, { Html, Head, Main, NextScript } from 'next/document';
 
 // const isProduction = process.env.NODE_ENV === "production";
 
-const prefix = '/stronka';
 export default class MyDocument extends Document {
     render(): JSX.Element {
         return (
             <Html lang="pl-PL">
                 <Head>
-                    <link rel="shortcut icon" href={prefix + '/favicon.ico'} />
+                    <link rel="shortcut icon" href={'/favicon.ico'} />
                     {/* enable analytics script only for production */}
                     {/* {isProduction && (
             <>
