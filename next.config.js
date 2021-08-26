@@ -1,4 +1,4 @@
-const { PHASE_DEVELOPMENT_SERVER } = require('next/constants');
+const withPlugins = require('next-compose-plugins');
 
 module.exports = (phase, { defaultConfig }) => {
     if (phase === PHASE_DEVELOPMENT_SERVER) {
