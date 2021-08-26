@@ -1,9 +1,9 @@
 import styled from '@emotion/styled';
-const logo1 = 'public/images/logo1.svg';
-import fb_icon from '@/public/images/fb_icon.svg';
-import tw_icon from '@/public/images/tw_icon.svg';
-import git_icon from '@/public/images/git_icon.svg';
-import in_icon from '@/public/images/in_icon.svg';
+const logo1 = 'images/logo1.svg';
+const fb_icon = 'images/fb_icon.svg';
+const tw_icon = 'images/tw_icon.svg';
+const git_icon = 'images/git_icon.svg';
+const in_icon = 'images/in_icon.svg';
 import { colors } from '@/src/styles';
 import { InvertedButton } from './InvertedButton';
 
@@ -78,11 +78,11 @@ export const Footer = () => {
                 </a>
             </FootNavWords>
             <FootIcons>
-                <InvertedButton ahref="https://www.facebook.com" imagIcon={fb_icon.src} />
-                <InvertedButton ahref="https://twitter.com/?lang=pl" imagIcon={tw_icon.src} />
-                <InvertedButton ahref="https://github.com/jamstackpb" imagIcon={git_icon.src} />
-                <InvertedButton ahref="https://www.facebook.com" imagIcon={fb_icon.src} />
-                <InvertedButton ahref="https://pl.linkedin.com/" imagIcon={in_icon.src} />
+                <InvertedButton ahref="https://www.facebook.com" imagIcon={fb_icon} />
+                <InvertedButton ahref="https://twitter.com/?lang=pl" imagIcon={tw_icon} />
+                <InvertedButton ahref="https://github.com/jamstackpb" imagIcon={git_icon} />
+                <InvertedButton ahref="https://www.facebook.com" imagIcon={fb_icon} />
+                <InvertedButton ahref="https://pl.linkedin.com/" imagIcon={in_icon} />
             </FootIcons>
             <div style={{ width: '100%', height: 45 }} />
             <CopyRights>
