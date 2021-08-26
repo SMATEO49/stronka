@@ -18,7 +18,7 @@ const GrandFooter = styled.div`
 `;
 
 const Logo = styled.div`
-    background-image: url(${logo1.src});
+    background-image: url('/'+${logo1.src});
     width: 52px;
     height: 50px;
 `;
