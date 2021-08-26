@@ -4,6 +4,6 @@ module.exports = withPlugins([
     {
         trailingSlash: true,
         basePath: process.env.NEXT_PUBLIC_BASE_PATH, //potrzebny
-        assetPath: '/stronka',
+        // assetPath: '/stronka',
     },
 ]);
