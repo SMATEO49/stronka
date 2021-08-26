@@ -12,5 +12,12 @@ const Full_Logo = styled.img`
 `;
 
 export const Logo = () => {
-    return <Full_Logo />;
+    return (
+        <img
+            src={full_logo1}
+            width="168"
+            height="50"
+            style={{ border: 'none', position: 'absolute', top: '0', left: '0' }}
+        />
+    );
 };
