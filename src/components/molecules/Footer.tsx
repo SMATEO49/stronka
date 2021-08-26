@@ -6,7 +6,7 @@ import git_icon from '@/public/images/git_icon.svg';
 import in_icon from '@/public/images/in_icon.svg';
 import { colors } from '@/src/styles';
 import { InvertedButton } from './InvertedButton';
-//import Image from 'next/image';
+import Image from 'next/image';
 
 const GrandFooter = styled.div`
     background: ${colors.footer_color};
