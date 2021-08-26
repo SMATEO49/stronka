@@ -5,7 +5,7 @@ const Full_Logo = styled.img`
     width: 168px;
     height: 50px;
     margin: 28px;
-    border: 0px;
+    border: none;
     background-image: url(${full_logo1});
     position: absolute;
     top: 0;
