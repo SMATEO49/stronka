@@ -1,6 +1,8 @@
 import styled from '@emotion/styled';
-const full_logo1 = 'imges/full_logo1.svg';
+import full_logo1 from '@/public/images/full_logo1.svg';
 import { colors } from '@/src/styles';
+
+const prefix = '/main';
 
 export const Header = styled.div`
     background: ${colors.header_color};
@@ -13,12 +15,11 @@ export const Header = styled.div`
     align-items: center;
 `;
 
-export const Full_Logo = styled.img`
+export const Full_Logo = styled.div`
     width: 168px;
     height: 50px;
     margin: 28px;
-    border: 0px;
-    background-image: url(${full_logo1});
+    background-image: url(${prefix + full_logo1.src});
     position: absolute;
     top: 0;
     left: 0;
