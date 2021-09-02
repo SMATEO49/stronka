@@ -1,7 +1,7 @@
 import styled from '@emotion/styled';
 
-const Icon = styled.img<{ imagIcon: any }>`
-    src: ${({ imagIcon }) => imagIcon};
+const Icon = styled.div<{ imagIcon: any }>`
+    background-image: url(${({ imagIcon }) => imagIcon});
     :hover {
         filter: invert(3%);
         box-shadow: 6px 6px 6px -1px black;
