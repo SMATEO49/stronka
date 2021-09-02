@@ -17,13 +17,6 @@ const GrandFooter = styled.div`
     flex-direction: column;
 `;
 
-/*const Logo = styled.img`
-    src: ${logo1};
-    width: 52px;
-    height: 50px;
-    border: none;
-`;*/
-
 const FootNavWords = styled.div`
     height: 12px;
     width: 380px;
@@ -76,11 +69,11 @@ export const Footer = () => {
                 </a>
             </FootNavWords>
             <FootIcons>
-                <InvertedButton ahref="https://www.facebook.com" imagIcon={fb_icon.src} />
-                <InvertedButton ahref="https://twitter.com/?lang=pl" imagIcon={tw_icon.src} />
-                <InvertedButton ahref="https://github.com/jamstackpb" imagIcon={git_icon.src} />
-                <InvertedButton ahref="https://www.facebook.com" imagIcon={fb_icon.src} />
-                <InvertedButton ahref="https://pl.linkedin.com/" imagIcon={in_icon.src} />
+                <InvertedButton ahref="https://www.facebook.com" imagIcon={fb_icon} />
+                <InvertedButton ahref="https://twitter.com/?lang=pl" imagIcon={tw_icon} />
+                <InvertedButton ahref="https://github.com/jamstackpb" imagIcon={git_icon} />
+                <InvertedButton ahref="https://www.facebook.com" imagIcon={fb_icon} />
+                <InvertedButton ahref="https://pl.linkedin.com/" imagIcon={in_icon} />
             </FootIcons>
             <div style={{ width: '100%', height: 45 }} />
             <CopyRights>
