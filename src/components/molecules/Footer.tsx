@@ -1,12 +1,11 @@
 import styled from '@emotion/styled';
-import logo1 from '/images/logo1.svg';
+import logo1 from '@/public/images/logo1.svg';
 import fb_icon from '@/public/images/fb_icon.svg';
 import tw_icon from '@/public/images/tw_icon.svg';
 import git_icon from '@/public/images/git_icon.svg';
 import in_icon from '@/public/images/in_icon.svg';
 import { colors } from '@/src/styles';
 import { InvertedButton } from './InvertedButton';
-import Image from 'next/image';
 const GrandFooter = styled.div`
     background: ${colors.footer_color};
     height: 470px;
@@ -15,11 +14,6 @@ const GrandFooter = styled.div`
     justify-content: center;
     align-items: center;
     flex-direction: column;
-`;
-const Logo = styled.div`
-    background-image: url(${logo1.src});
-    width: 52px;
-    height: 50px;
 `;
 const FootNavWords = styled.div`
     height: 12px;
@@ -81,7 +75,7 @@ export const Footer = () => {
             </FootIcons>
             <div style={{ width: '100%', height: 45 }} />
             <CopyRights>
-                <p>All rights reserved © JAMstack PB 2021</p>
+                <p>All rights reserved &copy; JAMstack PB 2021</p>
             </CopyRights>
             <div style={{ width: '100%', height: 48, zIndex: 2, background: colors.footer_color }} />
         </GrandFooter>
