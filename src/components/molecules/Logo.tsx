@@ -15,7 +15,7 @@ export const Logo = () => {
             src={full_logo1}
             width="168"
             height="50"
-            style={{ border: 'none', position: 'absolute', top: '28px', left: '28px' }}
+            style={{ border: 'none', position: 'absolute', top: '28px', left: '28px', margin: '0' }}
         />
     );
 };
