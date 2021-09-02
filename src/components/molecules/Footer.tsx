@@ -1,12 +1,11 @@
 import styled from '@emotion/styled';
-import logo1 from 'images/logo1.svg';
 import fb_icon from '@/public/images/fb_icon.svg';
 import tw_icon from '@/public/images/tw_icon.svg';
 import git_icon from '@/public/images/git_icon.svg';
 import in_icon from '@/public/images/in_icon.svg';
 import { colors } from '@/src/styles';
 import { InvertedButton } from './InvertedButton';
-import { TinyLogo } from './tinyLogo';
+import { TinyLogo } from './TinyLogo';
 
 const GrandFooter = styled.div`
     background: ${colors.footer_color};
