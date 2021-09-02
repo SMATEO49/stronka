@@ -6,6 +6,7 @@ import git_icon from '@/public/images/git_icon.svg';
 import in_icon from '@/public/images/in_icon.svg';
 import { colors } from '@/src/styles';
 import { InvertedButton } from './InvertedButton';
+
 const GrandFooter = styled.div`
     background: ${colors.footer_color};
     height: 470px;
@@ -15,6 +16,17 @@ const GrandFooter = styled.div`
     align-items: center;
     flex-direction: column;
 `;
+
+const Logo = styled.img`
+    src: ${logo1};
+    width: 52px;
+    height: 50px;
+    border: none;
+    position: absolute;
+    top: 28px;
+    left: 28px;
+`;
+
 const FootNavWords = styled.div`
     height: 12px;
     width: 380px;
@@ -50,7 +62,7 @@ export const Footer = () => {
     return (
         <GrandFooter>
             <div style={{ width: '100%', height: 100 }} />
-            <img src={logo1} width="52px" height="50px" />
+            <Logo />
             <div style={{ width: '100%', height: 50 }} />
             <FootNavWords>
                 <a href="https://github.com/aexol" style={{ color: colors.footer_text }}>

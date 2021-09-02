@@ -1,15 +1,13 @@
 import styled from '@emotion/styled';
 
-const Icon = styled.div<{ imagIcon: any }>`
-    background-image: url(${({ imagIcon }) => imagIcon});
-    background-position: center;
-    width: 100%;
-    height: 100%;
+const Icon = styled.img<{ imagIcon: any }>`
+    src: ${({ imagIcon }) => imagIcon};
     :hover {
         filter: invert(3%);
         box-shadow: 6px 6px 6px -1px black;
     }
 `;
+
 type Param = {
     ahref: any;
     imagIcon: any;

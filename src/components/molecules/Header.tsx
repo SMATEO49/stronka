@@ -20,22 +20,21 @@ const Container = styled.div<{ isHomepage: boolean }>`
             align-items: center;
         `};
 `;
-const Logo = styled.div<{ isHomepage?: boolean }>`
+const Logo = styled.img<{ isHomepage?: boolean }>`
     background-image: url(${full_logo1.src});
     ${({ isHomepage }) =>
         isHomepage
             ? css`
                   width: 168px;
                   height: 50px;
-                  margin: 28px;
                   position: absolute;
-                  top: 0;
-                  left: 0;
+                  top: 28px;
+                  left: 28px;
               `
             : css`
                   width: 168px;
                   height: 50px;
-                  margin-left: 30px;
+                  left: 30px;
               `};
 `;
 const Motto = styled.div`
@@ -80,7 +79,7 @@ export const Header: React.FC<HeaderTestProps> = ({ isHomepage = false }) => {
             <Container isHomepage={isHomepage}>
                 {isHomepage ? (
                     <>
-                        <Logo isHomepage={isHomepage} />
+                        <Logo />
                         <Motto>
                             <SubTitle>Najnowsze technologie TypeScript, React, NodeJS i inne</SubTitle>
                             <Title>Naucz się robić front-end wśród najlepszych </Title>
@@ -94,7 +93,7 @@ export const Header: React.FC<HeaderTestProps> = ({ isHomepage = false }) => {
                     <>
                         {' '}
                         <Nav>
-                            <Logo />
+                            <Logo isHomepage={isHomepage} />
                             <MenuIcon />
                         </Nav>
                         <h1
