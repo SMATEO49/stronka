@@ -1,8 +1,8 @@
 import styled from '@emotion/styled';
-import fb_icon from 'images/fb_icon.svg';
-import tw_icon from 'images/tw_icon.svg';
-import git_icon from 'images/git_icon.svg';
-import in_icon from 'images/in_icon.svg';
+const fb_icon = 'images/fb_icon.svg';
+const tw_icon = 'images/tw_icon.svg';
+const git_icon = 'images/git_icon.svg';
+const in_icon = 'images/in_icon.svg';
 import { colors } from '@/src/styles';
 import { InvertedButton } from './InvertedButton';
 import { TinyLogo } from './TinyLogo';
