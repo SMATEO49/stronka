@@ -1,12 +1,12 @@
 import styled from '@emotion/styled';
-import logo1 from '@/public/images/logo1.svg';
+import logo1 from '/images/logo1.svg';
 import fb_icon from '@/public/images/fb_icon.svg';
 import tw_icon from '@/public/images/tw_icon.svg';
 import git_icon from '@/public/images/git_icon.svg';
 import in_icon from '@/public/images/in_icon.svg';
 import { colors } from '@/src/styles';
 import { InvertedButton } from './InvertedButton';
-
+import Image from 'next/image';
 const GrandFooter = styled.div`
     background: ${colors.footer_color};
     height: 470px;
@@ -16,24 +16,20 @@ const GrandFooter = styled.div`
     align-items: center;
     flex-direction: column;
 `;
-
 const Logo = styled.div`
     background-image: url(${logo1.src});
     width: 52px;
     height: 50px;
 `;
-
 const FootNavWords = styled.div`
-    color: ${colors.footer_text};
-    font-size: 12px;
-    font-weight: 500;
     height: 12px;
     width: 380px;
+    font-size: 12px;
+    font-weight: 500;
     display: flex;
     justify-content: space-between;
     align-items: center;
 `;
-
 const FootIcons = styled.div`
     margin-top: 35px;
     width: 320px;
@@ -43,8 +39,7 @@ const FootIcons = styled.div`
     justify-content: space-between;
     align-items: center;
 `;
-
-export const CopyRights = styled.div`
+const CopyRights = styled.div`
     width: 100%;
     height: 80px;
     color: ${colors.rights_text};
@@ -57,12 +52,11 @@ export const CopyRights = styled.div`
     box-shadow: 0px 2px 6px -1px black;
     z-index: 1;
 `;
-
 export const Footer = () => {
     return (
         <GrandFooter>
             <div style={{ width: '100%', height: 100 }} />
-            <Logo />
+            <img src={logo1} width="52px" height="50px" />
             <div style={{ width: '100%', height: 50 }} />
             <FootNavWords>
                 <a href="https://github.com/aexol" style={{ color: colors.footer_text }}>
@@ -87,7 +81,7 @@ export const Footer = () => {
             </FootIcons>
             <div style={{ width: '100%', height: 45 }} />
             <CopyRights>
-                <p>All rights reserved &copy; JAMstack PB 2021</p>
+                <p>All rights reserved © JAMstack PB 2021</p>
             </CopyRights>
             <div style={{ width: '100%', height: 48, zIndex: 2, background: colors.footer_color }} />
         </GrandFooter>
