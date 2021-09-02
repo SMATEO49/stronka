@@ -2,7 +2,7 @@ import styled from '@emotion/styled';
 import { Input } from '../atoms/Input';
 import { colors } from '@/src/styles';
 import { Button } from '../atoms/Button';
-import full_logo1 from '@/public/images/full_logo1.svg';
+import { Logo } from '@/src/components/molecules/Logo';
 import { MenuIcon } from '@/src/components/atoms/MenuIcon';
 import { css } from '@emotion/react';
 
@@ -20,23 +20,7 @@ const Container = styled.div<{ isHomepage: boolean }>`
             align-items: center;
         `};
 `;
-const Logo = styled.img<{ isHomepage?: boolean }>`
-    background-image: url(${full_logo1.src});
-    ${({ isHomepage }) =>
-        isHomepage
-            ? css`
-                  width: 168px;
-                  height: 50px;
-                  position: absolute;
-                  top: 28px;
-                  left: 28px;
-              `
-            : css`
-                  width: 168px;
-                  height: 50px;
-                  left: 30px;
-              `};
-`;
+
 const Motto = styled.div`
     max-width: 640px;
     padding: 20px;
@@ -79,7 +63,7 @@ export const Header: React.FC<HeaderTestProps> = ({ isHomepage = false }) => {
             <Container isHomepage={isHomepage}>
                 {isHomepage ? (
                     <>
-                        <Logo isHomepage={isHomepage} />
+                        <Logo />
                         <Motto>
                             <SubTitle>Najnowsze technologie TypeScript, React, NodeJS i inne</SubTitle>
                             <Title>Naucz się robić front-end wśród najlepszych </Title>
