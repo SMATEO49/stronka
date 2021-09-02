@@ -4,7 +4,7 @@ const Full_Logo = styled.img`
     width: 168px;
     height: 50px;
     border: none;
-    src: url(${full_logo1});
+    src: ${full_logo1};
     margin: 0;
 `;
 export const Logo = () => {
