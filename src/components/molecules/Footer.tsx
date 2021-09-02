@@ -6,6 +6,7 @@ import git_icon from '@/public/images/git_icon.svg';
 import in_icon from '@/public/images/in_icon.svg';
 import { colors } from '@/src/styles';
 import { InvertedButton } from './InvertedButton';
+import { Logo } from './Logo';
 
 const GrandFooter = styled.div`
     background: ${colors.footer_color};
@@ -17,7 +18,7 @@ const GrandFooter = styled.div`
     flex-direction: column;
 `;
 
-const Logo = styled.img`
+/*const Logo = styled.img`
     src: ${logo1};
     width: 52px;
     height: 50px;
@@ -25,7 +26,7 @@ const Logo = styled.img`
     position: absolute;
     top: 28px;
     left: 28px;
-`;
+`;*/
 
 const FootNavWords = styled.div`
     height: 12px;
