@@ -63,7 +63,7 @@ export const Footer = () => {
     return (
         <GrandFooter>
             <div style={{ width: '100%', height: 100 }} />
-            <Logo />
+
             <div style={{ width: '100%', height: 50 }} />
             <FootNavWords>
                 <a href="https://github.com/aexol" style={{ color: colors.footer_text }}>
