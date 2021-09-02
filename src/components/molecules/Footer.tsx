@@ -33,7 +33,7 @@ const FootIcons = styled.div`
     justify-content: space-between;
     align-items: center;
 `;
-const CopyRights = styled.div`
+export const CopyRights = styled.div`
     width: 100%;
     height: 80px;
     color: ${colors.rights_text};
