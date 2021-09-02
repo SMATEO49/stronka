@@ -6,6 +6,7 @@ import git_icon from '@/public/images/git_icon.svg';
 import in_icon from '@/public/images/in_icon.svg';
 import { colors } from '@/src/styles';
 import { InvertedButton } from './InvertedButton';
+import { TinyLogo } from './tinyLogo';
 
 const GrandFooter = styled.div`
     background: ${colors.footer_color};
@@ -59,7 +60,7 @@ export const Footer = () => {
     return (
         <GrandFooter>
             <div style={{ width: '100%', height: 100 }} />
-            <img src={logo1} width="52" height="50" style={{ border: 'none', margin: '0', padding: '0' }} />
+            <TinyLogo />
             <div style={{ width: '100%', height: 50 }} />
             <FootNavWords>
                 <a href="https://github.com/aexol" style={{ color: colors.footer_text }}>
