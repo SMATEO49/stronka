@@ -79,7 +79,7 @@ export const Header: React.FC<HeaderTestProps> = ({ isHomepage = false }) => {
             <Container isHomepage={isHomepage}>
                 {isHomepage ? (
                     <>
-                        <Logo />
+                        <Logo isHomepage={isHomepage} />
                         <Motto>
                             <SubTitle>Najnowsze technologie TypeScript, React, NodeJS i inne</SubTitle>
                             <Title>Naucz się robić front-end wśród najlepszych </Title>
