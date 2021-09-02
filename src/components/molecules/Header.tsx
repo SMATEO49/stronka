@@ -77,7 +77,7 @@ export const Header: React.FC<HeaderTestProps> = ({ isHomepage = false }) => {
                     <>
                         {' '}
                         <Nav>
-                            <Logo isHomepage={isHomepage} />
+                            <Logo />
                             <MenuIcon />
                         </Nav>
                         <h1
